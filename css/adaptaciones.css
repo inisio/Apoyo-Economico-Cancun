@@ -1,0 +1,240 @@
+@media screen and (max-width: 60rem){
+    .uno{
+        flex-direction: column-reverse;
+    }
+
+    .uno .texto{
+        width: 80%;
+        text-align: center;
+    }
+    .uno .img{
+        width: 80%;
+    }
+
+    .uno .texto h1{
+        font-size: 3.5rem;
+        text-align: justify;
+    }
+    .uno .texto h2{
+        font-size: 1.6rem;
+        font-family: cambria;
+        text-align: justify;
+        color: rgb(79, 77, 77);
+    }
+
+    .dos{
+        flex-direction: column;
+    }
+
+    .dos .texto{
+        width: 80%;
+        text-align: center;
+    }
+
+    .dos .texto h1{
+        font-size: 3rem;
+    }
+    .dos .texto h2{
+        font-size: 1.6rem;
+        font-family: cambria;
+        text-align: justify;
+        color: rgb(79, 77, 77);
+    }
+
+
+    .dos .img{
+        width: 80%;
+        height: 25rem;
+        background-image: url(../img/cabezera.png);
+        background-size: 100% auto;
+        background-position: center;
+    }
+
+
+    .tres h1{
+        font-size: 1.6rem;
+        font-family: cambria;
+        text-align: justify;
+        color: rgb(79, 77, 77);
+    }
+
+    .titulo{
+        font-size: 3.5rem;
+        text-align: justify;
+    }
+
+
+    .cuatro{
+        flex-direction: column;
+    }
+
+    .cuatro .img{
+        width: 80%;
+        height: auto;
+    }
+    .cuatro svg{
+        width: 100%;
+        height: auto;
+    }
+    .cuatro .texto{
+        width: 80%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cuatro .texto h1{
+        font-size: 2.6rem;
+    }
+
+    .cuatro .texto h2{
+        font-size: 1.6rem;
+        font-family: cambria;
+        color: rgb(79, 77, 77);
+    }
+
+    .cuatro .texto a{
+        margin-top: 2rem;
+        padding: 1rem;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cuatro .texto a svg{
+        width: 2rem;
+    }
+
+    
+.cinco{
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.cinco .img{
+    width: 80%;
+    height: auto;
+}
+
+.cinco img{
+    width: 80%;
+    height: auto;
+}
+
+.cinco .texto{
+    margin: 0;
+    margin-bottom: 2rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.cinco .texto h1{
+    font-family:Arial;
+    font-size: 1rem;
+}
+
+.cinco .texto h2{
+    font-family: verdana;
+    font-size: .7rem;
+    text-align: center;
+}
+
+
+
+
+
+    .menu{
+        justify-content: center;
+    }
+
+    .menu .espasio{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu .direccion{
+        width: 80%;
+        height: 0%;
+        justify-content: center;
+    }
+
+    .menu .espasio h1{
+        display: none;
+    }
+    
+    .menu a h1{
+        display: none;
+    }
+
+    .menu svg{
+        width: 1.5rem;
+        height: auto;
+        display: block;
+    }
+
+    .menu a{
+        
+        position: relative;
+    }
+
+    .menu .inicio:hover:after{
+        width: 7rem;
+        height: 2rem;
+        right: -3rem;
+        top: 3rem;
+        text-align: center;
+        content: 'Inicio';
+        position: absolute;
+    }
+
+    .menu .requerimientos:hover:after{
+        width: 7rem;
+        height: 2rem;
+        right: -3rem;
+        top: 3rem;
+        text-align: center;
+        content: 'Requerimientos';
+        position: absolute;
+        
+    }
+    .menu .contacto:hover:after{
+        width: 7rem;
+        height: 2rem;
+        right: -3rem;
+        top: 3rem;
+        text-align: center;
+        content: 'Contacto';
+        position: absolute;
+    }
+    .menu .whatsapp:hover:after{
+        width: 7rem;
+        height: 2rem;
+        right: -3rem;
+        top: 3rem;
+        text-align: center;
+        content: 'WhatApp';
+        position: absolute;
+    }
+    .menu .facebook:hover:after{
+        width: 7rem;
+        height: 2rem;
+        right: -3rem;
+        top: 3rem;
+        text-align: center;
+        content: 'Facebook';
+        position: absolute;
+    }
+    .titulo{
+        font-size: 2rem;
+    }
+
+}
