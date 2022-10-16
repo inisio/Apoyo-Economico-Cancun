@@ -1,0 +1,67 @@
+.h-xl{
+    min-height: 35rem;
+    height: 90vh;
+}
+
+
+#uno{
+    font-weight: 700;
+    color: rgb(91, 40, 153);
+}
+
+#dos{
+    background-image: url(../img/cabezera2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+ 
+.fondo{
+    height: 30rem;
+    background-image:  url(../img/cabezera2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0,0;
+    background-size: auto 100%;
+}
+
+.fondo2{
+    height: 30rem;
+    background-image:  url(../img/cabezera.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+}
+
+.fondo3{
+    height: 30rem;
+    background-image:  url(../img/whatsapp-logo.svg);
+    background-repeat: no-repeat;
+    background-position: 0,0;
+    background-size: auto 100%;
+}
+.fondo4{
+    height: 30rem;
+    background-image:  url(../img/facebook.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+}
+
+
+#imagen{
+    height:  50px;
+}
+
+@media screen and (max-width: 60rem){
+    
+    .fondo2{
+        background-size: 100% auto;
+    }
+    
+    .fondo3{
+        background-size: 100% auto;
+    }
+    .fondo4{
+        background-size: 100% auto;
+    }
+}
